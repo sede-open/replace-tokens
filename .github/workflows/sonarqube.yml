@@ -23,5 +23,6 @@ jobs:
         with:
           projectBaseDir: ./
           args: >
+            -Dsonar.java.binaries=**/*.java
             -Dsonar.projectKey=com.shell.replace-tokens
             -Dsonar.verbose=true
