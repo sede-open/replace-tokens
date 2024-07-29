@@ -23,5 +23,5 @@ jobs:
         with:
           projectBaseDir: src
           args: >
-            -Dsonar.projectKey=com.shell.release-please-action
+            -Dsonar.projectKey=com.shell.replace-tokens
             -Dsonar.verbose=true
